@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Web Page Sir</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin:0;
+        }
+        /* @keyframes slide{
+            from{
+                transform:translateX(0);
+            }
+            to{
+                transform: translateX(-4000%);
+            }
+        } */
+        #na{
+            height: 40px;
+            width: 100%;
+            /* background-image: repeating-linear-gradient(rgb(220, 195, 54),rgb(229, 229, 45),rgb(188, 152, 84)); */
+            /* background-position: 200px; */
+            background-color: white;
+            justify-content: right;
+        }
+        #na a{
+            margin: 0px 20px;
+        }
+        /* a i{
+            transition: all 0.3s linear;
+        } */
+        /* a:hover i{
+            transform: scale(1.4);
+        } */
+        #na:hover .fa-brands{
+            animation-play-state: paused;
+
+        }
+        .fa-brands{
+            animation: 10s slide infinite linear;
+            /* white-space: nowrap; */
+        }
+        a i{
+            height: 10px;
+
+        }
+        nav{
+            height: 60px;
+            width: 100%;
+            background-color: rgb(56,15,15);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            list-style: none;
+            cursor: pointer;
+            position: sticky;
+            top: 0;
+        }
+        #part{
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 20%;
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .fa-solid{
+            margin-left: 10%;
+        }
+        body{
+            background-image: url(/projects/ice.jpg);
+            background-repeat: no-repeat;
+            background-size:100% 100vh ;
+        }
+        #menu h1{
+            color: black;
+            font-size: 40px;
+            margin-top:30vh;
+            margin-left: 20%;
+        }
+        #cards{
+            height: 70vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+        #cardone{
+            height: 65vh;
+            width: 30vw;
+            /* border: 5px solid blue; */
+            background-image: url(/projects/cone.jpg);
+            background-repeat: no-repeat;
+            background-size: 30vw 32.5vh;
+            box-shadow: 10px 10px 10px black;
+        }
+        #cardtwo{
+            height: 65vh;
+            width: 30vw;
+            /* border: 5px solid blue; */
+            background-image: url(/projects/cup.jpg);
+            background-repeat: no-repeat;
+            background-size: 30vw 32.5vh;
+            box-shadow: 10px 10px 10px black;
+        }
+        #cardthree{
+            height: 65vh;
+            width: 30vw;
+            /* border: 5px solid blue; */
+            background-image: url(/projects/cone.jpg);
+            background-repeat: no-repeat;
+            background-size: 30vw 32.5vh;
+            box-shadow: 10px 10px 10px black;
+        }
+        #cardone h1{
+            position: relative;
+            top: 30vh;
+            left: 8vw;
+        }
+        #cardone p{
+            position: relative;
+            top: 30vh;
+            font-weight: 800;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        #cardtwo h1{
+            position: relative;
+            top: 30vh;
+            left: 8vw;
+        }
+        #cardtwo p{
+            position: relative;
+            top: 30vh;
+            font-weight: 800;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        #cardthree h1{
+            position: relative;
+            top: 30vh;
+            left: 8vw;
+        }
+        #cardthree p{
+            position: relative;
+            top: 30vh;
+            font-weight: 800;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <nav id="na">
+        <a href="https://www.youtube.com/" target="_blank">
+            <i class="fa-brands fa-youtube fa-2xl" style="color: #e50606;"></i>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook fa-2xl" style="color: #1d2f8c;"></i>
+        </a>
+        <a href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2xl" style="color: #184faf;"></i>
+        </a>
+        <a href="https://www.whatsapp.com/" target="_blank">
+            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #1da413;"></i>
+        </a>
+
+        
+    </nav>
+    
+    <nav>
+        <i class="fa-solid fa-ice-cream fa-2xl" style="color: #e0e2e6;">cream</i>
+        <div id="part">
+        <li>Home</li>
+        <li>Products</li>
+        <li>About Us</li>
+        <li>Help</li>
+        </div>
+    </nav>
+    <main id="menu">
+        <h1>Lorem ipsum dolor sit amet consecteur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat nisi impedit possimus sequi sint, reiciendis ipsa veniam quos odit voluptatibus hic nemo repellendus provident cumque? Fugiat, accusamus? Obcaecati, quisquam ipsa?
+        et id minima, quam, accusamus eaque libero corrupti quisquam harum qui molestiae culpa iure aliquid ipsum tenetur quidem vel illo nulla. Odit, mollitia?
+        
+        </h1>
+    </main>
+    <section id="cards">
+        <div id="cardone">
+            <h1>cone icecream</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, modi iure. Minima, assumenda eos explicabo voluptate ex magni tenetur harum cum quasi suscipit neque aliquid ipsa quia temporibus modi nostrum!
+            Autem dicta veniam facere dolorum at nam natus, suscipit magnam nihil inventore
+            </p>
+        </div>
+        <div id="cardtwo">
+            <h1>cup icecream</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, modi iure. Minima, assumenda eos explicabo voluptate ex magni tenetur harum cum quasi suscipit neque aliquid ipsa quia temporibus modi nostrum!
+                Autem dicta veniam facere dolorum at nam natus, suscipit magnam nihil inventore
+                </p>
+
+        </div>
+        <div id="cardthree">
+            <h1>gudbad</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, modi iure. Minima, assumenda eos explicabo voluptate ex magni tenetur harum cum quasi suscipit neque aliquid ipsa quia temporibus modi nostrum!
+                Autem dicta veniam facere dolorum at nam natus, suscipit magnam nihil inventore
+                </p>
+
+        </div>
+    </section>
+</body>
+</html>

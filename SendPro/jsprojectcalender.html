@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display: flex;
+            justify-content: center;
+            /* border: 10px solid pink; */
+
+        }
+        button{
+            padding: 20px;
+            position: relative;
+            top: 1px;
+            height: 20px;
+            width: 50px;
+            /* left: 0px; */
+            right: -5px;
+            border: 2px solid black;
+        }
+        
+        input{
+            height: 30px;
+            width: 242px;
+            border: 2px solid black;
+
+        }
+        .targetgap{
+            padding: 11px;
+            /* border: 3px solid aqua; */
+            background-image: repeating-cone-gradient(white,black,orange);
+            background-color: slategrey;
+        }
+        ::placeholder{
+            position: relative;
+            left: 90px;
+            font-weight: 700;
+            font: bold;
+        }
+        #display{
+            border: 5px solid chocolate;
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+
+    <div id="container">
+        <div id="display">
+            <input type="text" placeholder="Display">
+            <div class="targetgap" id="btn1">
+                <button><==</button>
+                <button>*</button>
+                <button>/</button>
+                <button>C</button>
+            </div>
+            <div class="targetgap" id="btn2">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>+</button>
+            </div>
+            <div class="targetgap" id="btn3">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>-</button>
+            </div>
+            <div class="targetgap" id="btn4">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>=</button>
+            </div>
+            <div class="targetgap" id="btn5">
+                <button>.</button>
+                <button>(</button>
+                <button>)</button>
+                <button>0</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
